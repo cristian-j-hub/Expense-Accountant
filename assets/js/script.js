@@ -33,9 +33,6 @@ function actualizargastos() {
     listagastos.innerHTML = lista;
     listaelementos.innerHTML = totalgastos.toFixed(2)
     limpiar()
-    if (totalgastos > 1000) {
-        alert('Llevas gastado mas de USD$ 1000 en el mes')
-    }
 }
 
 function limpiar() {
